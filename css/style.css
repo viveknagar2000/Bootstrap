@@ -1,0 +1,251 @@
+*{      margin: 0px;
+        padding: 0px; 
+
+    }
+
+body{           background-color: black;
+         }
+
+
+.menubar{       width : 100%; 
+	        height : 80px;
+                background-color: black;
+                color: rgba(253, 250, 250, 0.574);
+                padding: 20px 0px;
+        }
+
+
+.icon{          margin-left: 290px;
+        }
+
+
+.fa-brands:hover {    color: white;
+
+                   }
+
+.fa-camera:hover{                color: #63eb03e9;
+                                transition: all 1s ease-in 0s ;
+                 }
+
+.ul  h1 {       margin-left: 10px ;
+                margin-right: 270px ;
+                text-align: left ;
+                color: aliceblue;
+            } 
+
+
+.ul a:hover{    color : azure ;
+                }
+
+
+
+.menubar ul li {        display : inline-block ;  
+                        padding : 0px 10px ; 
+
+                }
+
+.ul a{      text-decoration : none;  
+            color: rgba(253, 250, 250, 0.574);
+            font-weight: bold;
+        }
+
+.dl1{       width : 110px; 
+            height: 200px ;
+            background-color : olive; 
+            position : absolute; 
+            display:none;
+            padding: 10px 0px ;  
+            line-height: 30px ;
+            
+        }
+
+
+
+.G1:hover .dl1{     background-color : rgba(33, 33, 33, 0.863);
+                    position : absolute;
+                    display:block;
+
+                }
+
+.dl2{       width : 120px; 
+            background-color : olive; 
+            position : absolute;
+            left : 110px ; 
+            top : 200px;
+            display:none;  
+            padding : 10px 0px ; 
+            line-height: 30px ;
+        }
+
+.G2:hover .dl2{     background-color : rgba(33, 33, 33, 0.742);
+                    position : absolute;
+                    display:block;
+                }
+
+
+
+.first{     width : 100% ;
+            height: 300px;
+            text-align: center;                 
+            background-color: black;
+        }
+
+.first h1{      color: white;
+                padding-top: 40px;
+                font-size: 40px; 
+            }
+
+.first p {  color: rgba(253, 250, 250, 0.574);
+            font-size: 20px;
+             }
+
+button {        background-color: rgba(27, 224, 161, 0.901);
+                color: white;
+                font-weight: bold ;
+                padding : 15px 50px ;
+                border-radius: 5px ;
+                margin-top: 20px;
+            }
+
+button:hover{           background-color: rgb(27, 224, 162);
+                        transition: all 1s ease-in 0s ; }  
+
+
+.box {      width: 330px;
+            height : 300px;
+            border : 1px solid black;
+            display: inline-block;
+            margin : 20px 0px 0px 23px;
+            border-radius: 10px ;
+            transition : all 500ms ease 0s ; 
+        }
+
+
+.fa-link{       margin : 140px 160px ;
+                font-size: xx-large;
+        
+        }
+
+
+
+.box:hover{    
+                background-repeat: no-repeat ;
+                background-position: center ;
+                width: 300px;
+                height: 290px;
+                color: rgba(181, 168, 168, 0.978);
+               
+                }
+
+
+.box1{  background-image: url(../img/gallery/gallery-1.jpg);
+        background-size: cover;
+        background-position: center; 
+        color: transparent;
+
+        }
+
+.box2{  background-image: url(../img/gallery/gallery-2.jpg);
+        background-size: cover;
+        background-position: center;
+        color: transparent;
+        }
+
+.box3{  background-image: url(../img/gallery/gallery-3.jpg);
+        background-size: cover;
+        background-position: center;
+        color: transparent;
+            }
+
+.box4{  background-image: url(../img/gallery/gallery-4.jpg);
+        background-size: cover;
+        background-position: center;
+        color: transparent;
+        
+            } 
+            
+.box5{  background-image: url(../img/gallery/gallery-5.jpg);
+        background-size: cover;
+        background-position: center;
+        color: transparent;
+        }
+
+.box6{  background-image: url(../img/gallery/gallery-6.jpg);
+        background-size: cover;
+        background-position: center;
+        color: transparent;
+        }
+
+.box7{  background-image: url(../img/gallery/gallery-7.jpg);
+        background-size: cover;
+        background-position: center;
+        color: transparent;
+            }
+
+.box8{  background-image: url(../img/gallery/gallery-8.jpg);
+        background-size: cover;
+        background-position: center;
+        color: transparent;
+            } 
+
+.box9{  background-image: url(../img/gallery/gallery-9.jpg);
+        background-size: cover;
+        background-position: center;
+        color: transparent;
+        }
+
+.box10{  background-image: url(../img/gallery/gallery-10.jpg);
+        background-size: cover;
+        background-position: center;
+        color: transparent;
+        }
+
+.box11{  background-image: url(../img/gallery/gallery-11.jpg);
+        background-size: cover;
+        background-position: center;
+        color: transparent;
+            }
+
+.box12{  background-image: url(../img/gallery/gallery-12.jpg);
+        background-size: cover;
+        background-position: center;
+        color: transparent;
+            } 
+            
+.box13{  background-image: url(../img/gallery/gallery-13.jpg);
+        background-size: cover;
+        background-position: center;
+        color: transparent;
+        }
+
+.box14{  background-image: url(../img/gallery/gallery-14.jpg);
+        background-size: cover;
+        background-position: center;
+        color: transparent;
+        }
+
+.box15{  background-image: url(../img/gallery/gallery-15.jpg);
+        background-size: cover;
+        background-position: center;
+        color: transparent;
+            }
+
+.box16{  background-image: url(../img/gallery/gallery-16.jpg);
+        background-size: cover;
+        background-position: center;
+        color: transparent;
+            } 
+            
+.end{		margin : 40px 0px ;
+                text-align: center;
+		color : white ; 
+        }
+
+.end a {	color : rgb(27, 224, 162);  
+
+        }
+
+.end p{      font-size: medium;  
+
+        }
+
