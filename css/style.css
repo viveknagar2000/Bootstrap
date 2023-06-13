@@ -111,130 +111,56 @@ button:hover{           background-color: rgb(27, 224, 162);
                         transition: all 1s ease-in 0s ; }  
 
 
-.box {      width: 330px;
-            height : 300px;
-            border : 1px solid black;
-            display: inline-block;
-            margin : 20px 0px 0px 23px;
-            border-radius: 10px ;
-            transition : all 500ms ease 0s ; 
-        }
+.port-image{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        gap: 5px 0px;
+}
 
 
-.fa-link{       margin : 140px 160px ;
-                font-size: xx-large;
-        
-        }
+.photo{
+        overflow: hidden; 
+        position: relative;
+        width: fit-content;
 
+}
+.photo i{
+        font-size: 1.5rem;
+        color: white;
+        padding-right: 5px;
+}
 
+.photo i:hover{
+        color: #ffc451;
+        transition: all .2s ease-in-out;
+}
 
-.box:hover{    
-                background-repeat: no-repeat ;
-                background-position: center ;
-                width: 300px;
-                height: 290px;
-                color: rgba(181, 168, 168, 0.978);
-               
-                }
+.photo img{
+        width: 370px;
+        transform: scale(1);
+ }
 
+.photo:hover img{
+        transform: scale(1.1);
+        transition: all .5s ease-in-out;
+}
 
-.box1{  background-image: url(../img/gallery/gallery-1.jpg);
-        background-size: cover;
-        background-position: center; 
-        color: transparent;
+.hover-div{
+                position: absolute;
+                top: 0px;
+                right: 0px;
+                bottom: 0px;
+                left: 0px;
+                padding: 150px 0px 0px 150px;
+                opacity: 0;
+}
 
-        }
-
-.box2{  background-image: url(../img/gallery/gallery-2.jpg);
-        background-size: cover;
-        background-position: center;
-        color: transparent;
-        }
-
-.box3{  background-image: url(../img/gallery/gallery-3.jpg);
-        background-size: cover;
-        background-position: center;
-        color: transparent;
-            }
-
-.box4{  background-image: url(../img/gallery/gallery-4.jpg);
-        background-size: cover;
-        background-position: center;
-        color: transparent;
-        
-            } 
-            
-.box5{  background-image: url(../img/gallery/gallery-5.jpg);
-        background-size: cover;
-        background-position: center;
-        color: transparent;
-        }
-
-.box6{  background-image: url(../img/gallery/gallery-6.jpg);
-        background-size: cover;
-        background-position: center;
-        color: transparent;
-        }
-
-.box7{  background-image: url(../img/gallery/gallery-7.jpg);
-        background-size: cover;
-        background-position: center;
-        color: transparent;
-            }
-
-.box8{  background-image: url(../img/gallery/gallery-8.jpg);
-        background-size: cover;
-        background-position: center;
-        color: transparent;
-            } 
-
-.box9{  background-image: url(../img/gallery/gallery-9.jpg);
-        background-size: cover;
-        background-position: center;
-        color: transparent;
-        }
-
-.box10{  background-image: url(../img/gallery/gallery-10.jpg);
-        background-size: cover;
-        background-position: center;
-        color: transparent;
-        }
-
-.box11{  background-image: url(../img/gallery/gallery-11.jpg);
-        background-size: cover;
-        background-position: center;
-        color: transparent;
-            }
-
-.box12{  background-image: url(../img/gallery/gallery-12.jpg);
-        background-size: cover;
-        background-position: center;
-        color: transparent;
-            } 
-            
-.box13{  background-image: url(../img/gallery/gallery-13.jpg);
-        background-size: cover;
-        background-position: center;
-        color: transparent;
-        }
-
-.box14{  background-image: url(../img/gallery/gallery-14.jpg);
-        background-size: cover;
-        background-position: center;
-        color: transparent;
-        }
-
-.box15{  background-image: url(../img/gallery/gallery-15.jpg);
-        background-size: cover;
-        background-position: center;
-        color: transparent;
-            }
-
-.box16{  background-image: url(../img/gallery/gallery-16.jpg);
-        background-size: cover;
-        background-position: center;
-        color: transparent;
-            } 
+.hover-div:hover{
+        opacity: 1;
+        transition: all .5s ease;
+        background-color: rgba(9, 9, 9, 0.449);
+}
             
 .end{		margin : 40px 0px ;
                 text-align: center;
